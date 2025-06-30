@@ -43,7 +43,7 @@ A modern, feature-rich blog website built with Flask and Bootstrap. This web app
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Pranay-Dommati/MyBlogsWebsite.git
    cd MyBlogsWebsite-master
    ```
 
@@ -144,32 +144,6 @@ MyBlogsWebsite-master/
 - `author_id`: Foreign key to User
 - `post_id`: Foreign key to BlogPost
 
-## Deployment
-
-### Heroku Deployment
-
-This application is configured for Heroku deployment:
-
-1. **Install Heroku CLI** and login to your account
-
-2. **Create a Heroku app**
-   ```bash
-   heroku create your-app-name
-   ```
-
-3. **Set environment variables**
-   ```bash
-   heroku config:set SECRET_KEY=your-secret-key
-   heroku config:set DATABASE_URI=your-database-url
-   ```
-
-4. **Deploy**
-   ```bash
-   git add .
-   git commit -m "Deploy to Heroku"
-   git push heroku main
-   ```
-
 ### Environment Variables
 
 Required environment variables for production:
@@ -197,14 +171,6 @@ The application includes commented code for contact form email functionality. To
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Create a Pull Request
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Support
 
 For questions, issues, or suggestions, please open an issue in the GitHub repository.
-
----
-
-**Note**: This is a learning project demonstrating Flask web development concepts including user authentication, database relationships, and modern web design patterns.
